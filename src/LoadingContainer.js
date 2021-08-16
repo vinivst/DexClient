@@ -28,7 +28,9 @@ function LoadingContainer() {
   };
 
   if (!isReady()) {
-    return <div>Loading...</div>;
+    return (
+      <div>Loading...You must have Metamask and switch to Kovan network</div>
+    );
   }
 
   return <App web3={web3} contracts={contracts} accounts={accounts} />;

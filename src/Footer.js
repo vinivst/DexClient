@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="https://github.com/vinivst" style={{ color: 'white' }}>
           vinivst
         </a>
-        , a Profesional Blockchain developer
+        , a Full-Stack Blockchain developer
       </p>
     </footer>
   );
